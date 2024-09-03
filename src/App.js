@@ -1,25 +1,92 @@
-import logo from './logo.svg';
-import './App.css';
+// Go to the important file first inside component folder
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
 
-export default App;
+// USING usecontext method 
+
+// import { createContext } from 'react';
+// import './App.css';
+// import CompA from './component/CompA';
+
+// const fname = createContext();
+// const currage = createContext();
+
+
+// function App() {
+//   let name = "Yugal";
+//   let age = "20";
+  
+//   return (
+//     <>
+//       <fname.Provider value={name}>
+//         <currage.Provider value={age} >
+//           <CompA/>
+//         </currage.Provider>
+//       </fname.Provider>
+//     </>
+//   );
+// }
+
+// export default App;
+// export {fname,currage};
+
+
+
+
+
+
+
+
+// USING contextAPI method 
+
+
+// import { createContext } from 'react';
+// import './App.css';
+// import CompA from './component/CompA';
+
+
+// const fname = createContext();
+// const currage = createContext();
+
+// function App() {
+//   let name = "Yugal";
+//   let age = "20";
+  
+//   return (
+//     <>
+//       <fname.Provider value={name}>
+//         <currage.Provider value={age} >
+//           <CompA/>
+//         </currage.Provider>
+//       </fname.Provider>
+//     </>
+//   );
+// }
+
+// export default App;
+// export {fname,currage};
+
+
+
+
+
+
+
+
+// USING Prop Drilling method pass one by one js file using props
+
+// import './App.css';
+// import CompA from './component/CompA';
+
+
+// function App() {
+//   let name = "Yugal";
+//   let age = "20";
+  
+//   return (
+//     <>
+//         <CompA name={name} age={age}/>
+//     </>
+//   );
+// }
+
+// export default App;
