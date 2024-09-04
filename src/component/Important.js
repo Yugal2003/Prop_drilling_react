@@ -3,7 +3,7 @@
 //3. useContext - three item 1.createContext 2. Provider 3. useContext
 
 
-// aapne ek js file thi biji js file sathe props dealing karine data share component ma kari sakiye but App.js thi direct CompC ne data nahi mokali sakiye te mate aapne props use karvana badle context api use karisu but tema pan callback hell ni jem j ek function ni andar badha function declare karisu to te code lenghty thase te mate aapne use karisu useReducer...
+// aapne ek js file thi biji js file sathe props dealing karine data share component ma kari sakiye but App.js thi direct CompC ne data nahi mokali sakiye te mate aapne props use karvana badle context api use karisu but tema pan callback hell ni jem j ek function ni andar badha function declare karisu to te code lenghty thase te mate aapne use karisu useContext...
 
 
 // 1.why we are using the context API in react
