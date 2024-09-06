@@ -11,7 +11,8 @@
 //     );
 // }
 
-// export default CompA;
+// export default CompA
+
 
 
 
